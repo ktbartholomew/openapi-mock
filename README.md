@@ -35,7 +35,7 @@ The mock looks for certain request headers that a user can send to adjust the mo
 
 - `X-Mock-Latency`: A number of milliseconds to delay before the mock sends a response
 - `X-Mock-Response`: An HTTP status code number like 202 or 403 to receive. If not provided, the lowest-numbered status code from the spec will be returned. Requesting a status code not defined in the spec will return a 400 (Bad Request) response.
-- `X-Mock-Count`: The number of items to be inluded in response collections. This requires corresponding [response templates](#) in order to be effective.
+- `X-Mock-Count`: The number of items to be inluded in response collections. This requires corresponding [response templates](#templating-openapi-specs) in order to be effective.
 
 ### Templating OpenAPI Specs
 
