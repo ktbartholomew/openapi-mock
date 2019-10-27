@@ -1,4 +1,4 @@
-module github.com/Sucuri/sbu-experience-openapi-mock
+module github.com/ktbartholomew/openapi-mock
 
 go 1.13
 

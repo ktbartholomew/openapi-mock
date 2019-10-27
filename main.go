@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Sucuri/sbu-experience-openapi-mock/config"
-	"github.com/Sucuri/sbu-experience-openapi-mock/template"
 	"github.com/gorilla/mux"
+	"github.com/ktbartholomew/openapi-mock/config"
+	"github.com/ktbartholomew/openapi-mock/template"
 
 	"gopkg.in/yaml.v3"
 )
